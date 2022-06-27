@@ -160,14 +160,14 @@ import (
 )
 
 var (
-	nicks  = []string{"派蒙"}
+	nicks  = []string{"派蒙", "飞行矮堇瓜", "应急食品."}
 	adana  *string
 	prefix *string
 )
 
 func init() {
 	// 默认昵称
-	adana = flag.String("n", "椛椛", "Set default nickname.")
+	adana = flag.String("派蒙", "飞行矮堇瓜", "应急食品.")
 	prefix = flag.String("p", "/", "Set command prefix.")
 	gocq.InitBase()
 
